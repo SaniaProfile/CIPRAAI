@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">CIPRA App</string>
+
+    <!-- MainActivity Strings -->
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="login_error">Invalid email or password. Please try again.</string>
+
+    <!-- ImageDisplayActivity Strings -->
+    <string name="recommendation_title">Personalized Impact of Lifestyle Factors</string>
+    <string name="recommendation_header">Recommendation</string>
+    <string name="recommendation_details">Our analysis shows your BP is related to your daily number of steps. This week, focus on increasing your daily step count. Regular physical activity helps to lower blood pressure.</string>
+    <string name="recommendation_text">Additional recommendation text goes here.</string>
+</resources>

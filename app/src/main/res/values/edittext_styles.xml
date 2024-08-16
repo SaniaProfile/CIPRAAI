@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Style for Email EditText -->
+    <style name="EmailEditTextStyle">
+        <item name="android:drawableStart">@drawable/user</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:hint">Email</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+
+    </style>
+
+    <!-- Style for Password EditText -->
+    <style name="PasswordEditTextStyle">
+        <item name="android:drawableStart">@drawable/key</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+
+    </style>
+
+</resources>

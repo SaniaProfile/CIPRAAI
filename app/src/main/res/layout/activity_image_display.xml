@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recommendation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personalized Impact of Lifestyle Factors"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/recommendation_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommendation"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:background="#B0BCFA" />
+
+        <TextView
+            android:id="@+id/recommendation_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our analysis shows your BP is related to your daily number of steps. This week, focus on increasing your daily step count. Regular physical activity helps to lower blood pressure."
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            android:background="#D4DAFF" />
+
+        <ImageView
+            android:id="@+id/display_image"
+            android:layout_width="match_parent"
+            android:layout_height="615dp"
+            android:layout_marginTop="1dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/steps"
+            android:background="#7A8FFF"/>
+
+    </LinearLayout>
+</ScrollView>
